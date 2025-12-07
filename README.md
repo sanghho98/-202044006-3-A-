@@ -17,6 +17,7 @@ os.kill(os.getpid(), 9)
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+~~~
 
 df = pd.read_csv('/content/고령인구비율_시도_시_군_구__2025년.csv', encoding='euc-kr')
 df_copy = df.copy()
