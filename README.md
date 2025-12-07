@@ -13,11 +13,12 @@ os.kill(os.getpid(), 9)
 
 ### 1. 고령화 수준
 <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/6f45ee44-3608-4f34-8a84-06d9cfd79ef8" />
+
 ~~~python
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-~~~
+
 
 df = pd.read_csv('/content/고령인구비율_시도_시_군_구__2025년.csv', encoding='euc-kr')
 df_copy = df.copy()
