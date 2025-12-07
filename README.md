@@ -5,16 +5,6 @@
 ### 프로젝트 범위: 데이터 수집, 데이터 가공/정제, 데이터 시각화
 
 
-## 한글 폰트 설정
-~~~python
-!sudo apt-get install -y fonts-nanum
-!sudo fc-cache -fv
-!rm ~/.cache/matplotlib -rf
-
-import os
-os.kill(os.getpid(), 9)
-~~~
-
 ## 1. 고령화 수준
 <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/6f45ee44-3608-4f34-8a84-06d9cfd79ef8" />
 
