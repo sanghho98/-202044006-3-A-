@@ -2,7 +2,7 @@
 노인복지 취약지대 분석
 
 ### 한글 폰트 설정
-~~~
+~~~python
 !sudo apt-get install -y fonts-nanum
 !sudo fc-cache -fv
 !rm ~/.cache/matplotlib -rf
